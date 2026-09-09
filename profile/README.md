@@ -35,6 +35,7 @@ Finance is the first existing application to be fully migrated onto the shared p
 | [`app-finance-tracker`](https://github.com/pior-labs/app-finance-tracker) | Personal finance tracking | Active |
 | [`template-webapp`](https://github.com/pior-labs/template-webapp) | Reusable starting point for new platform applications | Active |
 | [`app-cookbook`](https://github.com/pior-labs/app-cookbook) | Recipe collection, cooking workflows, and meal planning | Active |
+| [`service-health`](https://github.com/pior-labs/service-health) | Platform health and observability | Planned |
 | `app-chatbot` | MCP-enabled platform assistant | Planned |
 
 ## Current direction
