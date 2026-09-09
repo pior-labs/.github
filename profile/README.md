@@ -34,18 +34,17 @@ Finance is the first existing application to be fully migrated onto the shared p
 | [`platform`](https://github.com/pior-labs/platform) | Public architecture and platform documentation | Active |
 | [`app-finance-tracker`](https://github.com/pior-labs/app-finance-tracker) | Personal finance tracking | Active |
 | [`template-webapp`](https://github.com/pior-labs/template-webapp) | Reusable starting point for new platform applications | Active |
-| `app-cookbook` | Recipe collection and meal planning | Planned |
+| [`app-cookbook`](https://github.com/pior-labs/app-cookbook) | Recipe collection, cooking workflows, and meal planning | Active |
 | `app-chatbot` | MCP-enabled platform assistant | Planned |
 
 ## Current direction
 
-With the core platform migration complete, current work is focused on extending and hardening the foundation rather than replacing it:
+With the core platform foundation in place, current work is focused on building deeper application capabilities and using new projects to expand the platform deliberately:
 
-1. Use the standardized application pattern for new projects, beginning with the Cookbook.
-2. Continue reducing deployment-specific logic inside public application repositories.
-3. Improve observability, backup and restore procedures, and deployment verification.
-4. Expand reusable platform and design-system conventions as new applications expose common needs.
-5. Build an MCP-enabled assistant once the application ecosystem is established.
+1. Continue developing Cookbook beyond its core recipe experience, including meal planning, grocery-list generation, and broader MCP capabilities.
+2. Build [`service-health`](https://github.com/pior-labs/service-health) as a small Go service to add practical Go experience while improving platform health and observability.
+3. Keep refining the shared platform, deployment, and design-system conventions as new application requirements expose gaps.
+4. Start the MCP-enabled AI chatbot once the supporting application capabilities and service patterns are mature enough to make the assistant genuinely useful.
 
 ## Status
 
