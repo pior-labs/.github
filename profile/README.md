@@ -37,7 +37,7 @@ Pior Labs is developed with AI agents, so the context they work from is treated 
 | --- | --- | --- |
 | [`app-cookbook`](https://github.com/pior-labs/app-cookbook) | Household recipes, scaling, meal planning, grocery lists, AI recipe import, and read-only MCP access | Active |
 | [`app-finance-tracker`](https://github.com/pior-labs/app-finance-tracker) | Two-person finance tracking with conversational queries over MCP | Active |
-| `app-tasks` | Deliberately simple task app used to prove out the software factory | Active (private) |
+| [`app-tasks`](https://github.com/pior-labs/app-tasks) | Deliberately simple task app used to prove out the software factory | Early |
 | [`app-chatbot-assistant`](https://github.com/pior-labs/app-chatbot-assistant) | MCP-enabled household assistant; SSO foundation live, chat in progress | Early |
 | [`app-dashboard`](https://github.com/pior-labs/app-dashboard) | Central launchpad for hosted applications | Active |
 | [`service-auth`](https://github.com/pior-labs/service-auth) | Shared authentication and SSO | Active |
@@ -46,14 +46,13 @@ Pior Labs is developed with AI agents, so the context they work from is treated 
 | [`template-webapp`](https://github.com/pior-labs/template-webapp) | Starting point for new platform apps, with verified release tooling built in | Active |
 | [`platform`](https://github.com/pior-labs/platform) | Public architecture, standards, and roadmap | Active |
 | `platform-deploy` | Production routing, networking, and deployment automation | Active (private) |
-| `workspace` | Multi-repo agent context, decision records, and setup tooling | Active (private) |
+| `workspace` | Multi-repo agent context/skills, decision records, and setup tooling | Active (private) |
 
 ## Current direction
 
 1. **Finalize the software factory using Tasks.** Tasks is intentionally small, so each feature exercises the factory rather than the product. The first full run, adding task creation, listing, and completion, went from approved plan through one repair round and an independent review pass to a merged PR. Each run feeds friction back into the workflow until it is something I can rely on for every app.
-2. **Apply the factory to the rest of the platform**, starting with Cookbook and the Assistant once the workflow is stable.
-3. **Build the Assistant's chat capabilities** on top of the MCP access Cookbook and Finance already expose.
-4. **Continue `service-health`** as a hands-on Go project, with Dashboard as its first consumer.
+2. **Apply the factory to the rest of the platform**, starting with the Assistant once the workflow is stable.
+3. **Continue `service-health`** as a hands-on Go project, with Dashboard as its first consumer.
 
 ## Status
 
